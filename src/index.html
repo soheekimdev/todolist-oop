@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OOP TodoList</title>
+    <link rel="stylesheet" href="styles/global.css" />
+  </head>
+  <body>
+    <header>
+      <h1>OOP TodoList</h1>
+    </header>
+
+    <main>
+      <section class="task-input">
+        <input
+          type="text"
+          name="task"
+          id="newTodoInput"
+          placeholder="새로운 할 일 입력"
+        />
+        <button type="submit" id="addTodoBtn">추가</button>
+      </section>
+
+      <section class="task-list">
+        <h2>할 일 목록</h2>
+
+        <ul id="todoListContainer">
+          <li>
+            <input type="checkbox" />
+            <span>할 일 예시</span>
+            <div class="task-actions">
+              <button>수정</button><button>삭제</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script type="module" src="./scripts/app.js"></script>
+  </body>
+</html>
