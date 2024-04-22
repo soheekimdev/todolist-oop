@@ -80,6 +80,7 @@ main {
 .task-list li input[type='checkbox'] {
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
 .task-list li input[type='checkbox']:checked + span {
   text-decoration: line-through;
