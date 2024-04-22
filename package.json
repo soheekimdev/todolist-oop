@@ -1,0 +1,15 @@
+{
+  "name": "todolist-oop",
+  "version": "1.0.0",
+  "description": "Javascript TodoList toy project",
+  "main": "src/index.js",
+  "scripts": {},
+  "author": {
+    "name": "Sohee Kim",
+    "email": "soheekim.dev@gmail.com"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {}
+}

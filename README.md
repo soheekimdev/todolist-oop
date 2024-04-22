@@ -1,2 +1,6 @@
-# todolist-oop
-Javascript TodoList toy project
+# 프로젝트 설명
+- 객체지향 프로그래밍 기반 Todo 리스트 토이 프로젝트
+- 순수 Javascript 사용
+
+# 프로젝트 목표
+- 객체지향 프로그래밍 스터디
